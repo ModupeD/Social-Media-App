@@ -1,16 +1,18 @@
-import {View, Text, Image, StyleSheet} from 'react-native';
+import {View, Text, Image, StyleSheet, Pressable} from 'react-native';
 import { TweetType } from '../types';
 import { Entypo, EvilIcons } from '@expo/vector-icons'; 
 import IconButton from './IconButton';
+import { Link } from 'expo-router';
 
 type TweetProps = {
   tweet: TweetType;
 };
 
 const Tweet = ({ tweet }: TweetProps) => {
-  console.log(tweet.user.image?.toLowerCase())
-    return (
-      <View style={styles.container}>
+  console.log(tweet.user.image?.toLowerCase());
+  return (
+    <Link href={`/tweet/${tweet.id}`} asChild>
+      <Pressable style={styles.container}>
         <Image src={tweet.user.image} style={styles.userImage} />
 
         <View style={styles.mainContainer}>
@@ -29,16 +31,17 @@ const Tweet = ({ tweet }: TweetProps) => {
           {tweet.image && <Image src={tweet.image} style={styles.image} />}
           <View style={styles.footer}>
             {/* Comment icon button */}
-            <IconButton icon="comment" text={tweet.numberOfComments}/>
-            <IconButton icon="retweet" text={tweet.numberOfRetweets}/>
-            <IconButton icon="like" text={tweet.numberOfLikes}/>
-            <IconButton icon="chart" text={tweet.impressions || 0}/>
-            <IconButton icon="share-apple"/>
+            <IconButton icon="comment" text={tweet.numberOfComments} />
+            <IconButton icon="retweet" text={tweet.numberOfRetweets} />
+            <IconButton icon="like" text={tweet.numberOfLikes} />
+            <IconButton icon="chart" text={tweet.impressions || 0} />
+            <IconButton icon="share-apple" />
           </View>
         </View>
-      </View>
-    );
-}
+      </Pressable>
+    </Link>
+  );
+};
 
 const styles = StyleSheet.create({
     container: {
