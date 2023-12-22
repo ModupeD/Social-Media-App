@@ -3,15 +3,15 @@ const tweets = [
     id: 't0',
     user: {
       id: 'u1',
-      username: 'VadimNotJustDev',
-      name: 'Vadim',
+      username: 'CodeWithMomo',
+      name: 'Momo',
       image:
-        'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/vadim.png',
+        'https://res.cloudinary.com/drf6yjgkn/image/upload/v1692131338/Mo_gujetu.jpg',
     },
     createdAt: '2020-08-27T12:00:00.000Z',
-    content: 'Can you please check if the Subscribe button on Youtube works?',
+    content: 'Check out my new Logo',
     image:
-      'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/thumbnail.png',
+      'https://res.cloudinary.com/drf6yjgkn/image/upload/v1691595224/ftqi8kdogt9pvfweq59f.png',
     numberOfComments: 123,
     numberOfRetweets: 11,
     numberOfLikes: 10,
@@ -71,16 +71,16 @@ const tweets = [
     id: 't1',
     user: {
       id: 'u1',
-      username: 'VadimNotJustDev',
-      name: 'Vadim',
+      username: 'CodeWithMomo',
+      name: 'Momo',
       image:
-        'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/vadim.png',
+        'https://res.cloudinary.com/drf6yjgkn/image/upload/v1692131338/Mo_gujetu.jpg',
     },
     createdAt: '2020-08-27T12:00:00.000Z',
     content:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "Family is such a beautiful gift from God. Never neglect the people God has placed in your life.",
     image:
-      'https://i.insider.com/5d03aa8e6fc9201bc7002b43?width=1136&format=jpeg',
+      'https://res.cloudinary.com/drf6yjgkn/image/upload/v1691595034/samples/people/bicycle.jpg',
     numberOfComments: 123,
     numberOfRetweets: 11,
     numberOfLikes: 10,
@@ -89,14 +89,14 @@ const tweets = [
     id: 't2',
     user: {
       id: 'u1',
-      username: 'VadimNotJustDev',
-      name: 'Vadim',
+      username: 'CodeWithMomo',
+      name: 'Momo',
       image:
-        'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/vadim.png',
+        'https://res.cloudinary.com/drf6yjgkn/image/upload/v1692131338/Mo_gujetu.jpg',
     },
     createdAt: '2020-08-27T12:00:00.000Z',
     content:
-      "Hey Hey Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "Remember, you can train yourself to have good habits. This is how to accomplish your goals",
     numberOfComments: 4,
     numberOfRetweets: 11,
     numberOfLikes: 99,
@@ -105,10 +105,10 @@ const tweets = [
     id: 't3',
     user: {
       id: 'u1',
-      username: 'VadimNotJustDev',
-      name: 'Vadim',
+      username: 'CodeWithMomo',
+      name: 'Momo',
       image:
-        'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/vadim.png',
+        'https://res.cloudinary.com/drf6yjgkn/image/upload/v1692131338/Mo_gujetu.jpg',
     },
     createdAt: '2020-08-27T12:00:00.000Z',
     content: 'Hello World',
@@ -120,14 +120,14 @@ const tweets = [
     id: 't4',
     user: {
       id: 'u1',
-      username: 'VadimNotJustDev',
-      name: 'Vadim',
+      username: 'CodeWithMomo',
+      name: 'Momo',
       image:
-        'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/vadim.png',
+        'https://res.cloudinary.com/drf6yjgkn/image/upload/v1692131338/Mo_gujetu.jpg',
     },
     createdAt: '2020-08-27T12:00:00.000Z',
     content:
-      "Hey Hey Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "I am a Software Developer focused on delivering strategic and meaningful user experiences. I love technology,and it's my passion to solve tech-related problems. Apart from technology, I love people. I am intentional about empowering people around me to be the best version of themselves. During my spare time, I learn about FinTech businesses and Technology startups.",
     numberOfComments: 4,
     numberOfRetweets: 11,
     numberOfLikes: 99,
