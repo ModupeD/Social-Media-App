@@ -1,4 +1,4 @@
-Social Media Add
+## Social Media Add
 
 This app allowd users to upload text and images. It enables them to post content for users see, like and repost. The features currently available are the ability to see user tweet and view a tweet in detail.
 
